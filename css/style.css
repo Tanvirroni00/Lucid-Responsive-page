@@ -1,0 +1,772 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.toggler-icon i{
+    color: #fff;
+}
+header {
+    background-image: url("../images/back-ground.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+    position: relative;
+    padding: 0px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -5px;
+    width: 0px;
+    height: 2px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.navbar-light .navbar-nav .nav-link::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: -5px;
+    width: 0px;
+    height: 2px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.nav-item {
+    padding: 0px 8px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before {
+    width: 47%;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::after {
+    width: 47%;
+}
+
+.height {
+    min-height: 90vh;
+    align-items: center;
+}
+
+.height h5 {
+    color: rgb(0, 142, 214);
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2.5px;
+}
+
+.height h1 {
+    color: rgb(255, 255, 255);
+    margin: 25px 0px;
+    font-weight: 300;
+    font-size: 45px;
+}
+
+.height p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    margin-bottom: 38px;
+}
+
+.btn-Downlaod {
+    background: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 5px;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.btn-Features {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid rgb(153, 153, 153);
+    margin-top: 20px;
+    margin-left: 50px;
+    transition: all 0.5s ease-in-out 0s;
+    border-radius: 5px;
+}
+
+.btn-Downlaod:hover {
+    background: transparent;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.btn-Features:hover {
+    background: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(153, 153, 153);
+}
+
+.phone {
+    
+}
+.phone img{
+    position: absolute;
+    right: 10%;
+    bottom: 0;
+    height: 400px;
+    width: 400px;
+}
+.phone-img-media{
+    display: none;
+}
+
+.overview {
+    align-items: center;
+    text-align: center;
+    margin: 100px 0px;
+}
+
+.overview h6 {
+    color: rgb(0, 142, 214);
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.overview h1 {
+    color: rgb(26, 26, 26);
+    font-size: 47px;
+    font-weight: 400;
+    position: relative;
+    margin: 25px auto;
+}
+
+.overview h1::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -40px;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.overview h1::after {
+    content: "";
+    position: absolute;
+    right: 45%;
+    bottom: -40px;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.overview h1:hover::before {
+    width: 4%;
+}
+
+.overview h1:hover::after {
+    width: 4%;
+}
+
+.features {}
+
+.feature-icon {
+    height: 80px;
+    border: 1px solid rgba(153, 153, 153, 0.6);
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    color: rgb(0, 142, 214);
+    margin: auto;
+    border-radius: 54px;
+}
+
+.feature-icon i {}
+
+.features h3 {
+    color: rgb(26, 26, 26);
+    margin: 18px auto;
+    font-size: 25px;
+}
+
+.features p {
+    color: rgba(153, 153, 153, 0.6);
+    margin: 10px auto;
+    font-size: 16px;
+}
+
+.feature-icon:hover {
+    background: rgb(0, 142, 214);
+    color: aliceblue;
+}
+
+.iphone-part {
+    margin: 56px auto;
+}
+
+.iphone {}
+
+.iphone img {}
+
+.iphone-part h6 {
+    color: rgb(0, 142, 214);
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 17px;
+    text-align: left;
+}
+
+.iphone-part h3 {
+    text-align: left;
+    margin: 20px auto;
+    font-size: 45px;
+    font-weight: 500;
+    position: relative;
+}
+
+.iphone-part h3::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -20%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iphone-part h3::after {
+    content: "";
+    position: absolute;
+    right: 80%;
+    bottom: -20%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iphone-part h3:hover::before {
+    width: 45px;
+}
+
+.iphone-part h3:hover::after {
+    width: 45px;
+}
+
+.iphone-part p {
+    color: rgb(153, 153, 153);
+    text-align: left;
+    font-size: 20px;
+    margin: 30px auto;
+}
+
+.dip {
+    border-top: 1px solid rgba(153, 153, 153, 0.6);
+}
+
+.dip ul {
+    text-decoration: none;
+}
+
+.dip ul li {
+    list-style: none;
+}
+
+.dip-icon {
+    text-align: left;
+    display: flex;
+    color: rgb(0, 156, 226);
+    align-items: center;
+}
+
+.dip-icon i {}
+
+.dip-icon p {
+    text-align: left;
+    color: rgb(27, 27, 27);
+    font-size: 20px;
+    margin: 10px auto 10px 10px;
+}
+
+.iphone2 {
+    background-color: rgb(242, 242, 242);
+}
+
+.iphone2 h5 {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(0, 142, 214);
+    margin-top: 46px;
+    letter-spacing: 6px;
+    font-family: "Source Sans Pro";
+}
+
+.iphone2 h1 {
+    font-size: 38px;
+    color: black;
+    font-family: "Source Sans Pro";
+    margin: 26px auto;
+    position: relative;
+}
+
+.iphone2 h1::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -40%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iphone2 h1::after {
+    content: "";
+    position: absolute;
+    right: 80%;
+    bottom: -40%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.iphone2 h1:hover::before {
+    width: 8%;
+}
+
+.iphone2 h1:hover::after {
+    width: 8%;
+}
+
+.iphone2 p {
+    color: rgb(153, 153, 153);
+    font-size: 19px;
+    font-weight: 200;
+}
+
+.iphone22 {
+    margin-top: 50px;
+}
+
+.iphone22 img {}
+
+.down-bg {
+    background-image: url("../images/back-pic-.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.down-bg h6 {
+    color: rgb(0, 142, 214);
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.down-bg h1 {
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    position: relative;
+    margin: 40px auto;
+    font-size: 50px;
+}
+.down-bg p{
+    color: #fff;
+    font-size: 20px;
+}
+
+.down-bg h1::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -50%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.down-bg h1::after {
+    content: "";
+    position: absolute;
+    right: 45%;
+    bottom: -50%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.down-bg h1:hover::before {
+    width: 4%;
+}
+
+.down-bg h1:hover::after {
+    width: 4%;
+}
+
+.testmonial {}
+
+.testmonial p {
+    color: rgb(255, 255, 255);
+    font-style: italic;
+    margin-bottom: 67px;
+    font-size: 25px;
+}
+
+.client {
+    display: flex;
+}
+
+.client-img {
+    height: 70px;
+    border: 1px solid rgba(153, 153, 153, 0.6);
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 87px;
+    overflow: hidden;
+    margin-right: 50px;
+}
+
+.client-des {}
+
+.client-des h4 {
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.client-des h3 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+.black {
+    background: rgb(21, 20, 26);
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.like {
+    /* font-size: 35px; */
+}
+
+.like h1 {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+.get {
+    /* font-size: 35px; */
+}
+
+.get h1 {
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    margin-left: 5px;
+    font-size: 35px;
+}
+
+.black-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center!important;
+}
+
+.price-section {}
+
+.plans {}
+
+.plans h6 {
+    color: rgb(0, 142, 214);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.plans h1 {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    position: relative;
+    margin: 26px auto;
+    font-size: 45px;
+}
+
+.plans h1::before {
+    content: "";
+    position: absolute;
+    left: 45%;
+    bottom: -50%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.plans h1::after {
+    content: "";
+    position: absolute;
+    right: 45%;
+    bottom: -50%;
+    width: 0px;
+    height: 3px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.plans h1:hover::before {
+    width: 4%;
+}
+
+.plans h1:hover::after {
+    width: 4%;
+}
+
+.price-table {}
+
+.price-box {
+    border: 1px solid rgb(153, 153, 153);
+    text-align: center;
+}
+
+.price-box h3 {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.6);
+    padding: 18px;
+    text-transform: uppercase;
+}
+
+.price {
+    border-bottom: 1px solid rgba(153, 153, 153, 0.6);
+    padding: 18px;
+}
+
+.price h1 {
+    font-size: 80px;
+    margin: 0%;
+}
+
+.price h1 sup {
+    font-size: 30px;
+    top: -1.5em;
+}
+
+.price h5 {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+}
+
+.price-box p {
+    color: rgb(153, 153, 153);
+    font-size: 18px;
+    padding: 26px;
+}
+
+.btn-buy {
+    padding: 10px 20px;
+    border: 1px solid rgba(153, 153, 153, 0.6);
+    text-transform: uppercase;
+    color: rgb(0, 142, 214);
+    margin-bottom: 20px;
+}
+
+.price-box:hover.price-box h3 {
+    color: rgb(0, 142, 214);
+}
+
+.price-box:hover .btn-buy,
+.price-box:hover .price {
+    background-color: rgb(0, 142, 214);
+    color: rgb(255, 255, 255);
+}
+
+.Stay {
+    background-color: rgb(237, 237, 237);
+    text-align: center;
+    position: relative;
+    padding-bottom: 400px;
+}
+
+.Stay h4 {
+    color: rgb(0, 142, 214);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 20px auto;
+}
+
+.Stay h1 {
+    color: rgb(26, 26, 26);
+    font-family: sans-serif;
+    position: relative;
+    margin: 25px auto;
+    font-size: 40px;
+}
+
+.Stay span {
+    display: block;
+    height: 3px;
+    width: 82px;
+    margin: auto;
+    position: relative;
+}
+
+.Stay span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.Stay span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    height: 100%;
+    width: 0px;
+    background-color: rgb(0, 142, 214);
+    transition: all 0.4s ease-in-out 0s;
+}
+
+.Stay:hover.Stay span::before,
+.Stay:hover.Stay span::after {
+    width: 47%;
+}
+
+.icon-info {
+    text-align: center;
+}
+
+.icon-info i {
+    margin: 20px auto;
+    font-size: 35px;
+    color: rgb(0, 173, 232);
+}
+
+.icon-info p {
+    color: rgb(153, 153, 153);
+    margin: 10px auto;
+}
+
+.form-box {
+    background: rgb(0, 0, 0);
+    padding: 60px;
+    text-align: end;
+    position: absolute;
+    width: 60%;
+    bottom: -118px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.form-box form {}
+
+.form-box form input {
+    background: transparent;
+}
+
+.form-box form textarea {
+    background: transparent;
+}
+
+.form-box form input[type="Submit"] {
+    background: rgb(0, 142, 214);
+    padding: 10px 30px;
+    color: rgb(255, 255, 255);
+}
+footer {
+    background: #000;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.icon-part {
+    width: 59%;
+    margin: auto;
+    
+}
+
+.icon-part ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+   
+    align-items: center;
+    
+    margin-left: 15px;
+}
+
+.icon-part ul li {
+    margin-left: 50px;
+}
+
+.icon-part ul li a {
+    text-decoration: none;
+    color: #444348;
+}
+
+.icon-part ul li a i:hover {
+    color: #008ed6;
+}
+
+footer p {
+
+text-align: center;
+
+color: #444348;
+
+margin: 30px auto;
+
+margin-left: 71px;
+}

@@ -1,0 +1,288 @@
+@media(max-width:575px) {
+    .navbar-brand-img {
+        width: 90px;
+    }
+
+    .navbar-light .navbar-nav .nav-link.active {
+        display: inline-block;
+    }
+
+    .ms-auto {
+
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    .height {
+        margin-top: 5px;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .height h1 {
+        font-size: 28px;
+        margin: 20px auto;
+        font-weight: 500;
+    }
+
+    .height h5 {
+        color: rgb(0, 142, 214);
+        font-size: 15px;
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .nav-item {
+        padding: 2px;
+        padding-left: 0;
+    }
+
+    .height p {
+
+        font-size: 13px;
+        margin-bottom: 16px;
+    }
+
+    .btn-Downlaod {
+        font-size: 12px;
+
+    }
+
+    .btn-Features {
+        margin-left: 15px;
+    }
+
+    .phone img {
+
+        display: none;
+    }
+
+    .phone-img-media {
+
+        width: 75%;
+
+        height: auto;
+
+        display: inherit;
+
+        margin: 15px auto;
+
+    }
+
+    .overview h1 {
+        color: rgb(26, 26, 26);
+        font-size: 28px;
+        font-weight: 400;
+        position: relative;
+        margin: 15px auto;
+    }
+
+    .overview {
+        margin: 42px 0px;
+    }
+
+    .overview h6 {
+        font-size: 14px;
+
+    }
+
+    .feature-icon {
+        height: 60px;
+        width: 60px;
+        font-size: 28px;
+
+
+    }
+
+    .features h3 {
+        color: rgb(26, 26, 26);
+        margin: 12px auto;
+        font-size: 20px;
+    }
+
+    .features p {
+        font-size: 15px;
+    }
+
+    .iphone-part h6 {
+        font-size: 13px;
+        text-align: center;
+
+
+    }
+
+    .iphone-part h3 {
+        text-align: center;
+        margin: 18px auto;
+        font-size: 23px;
+        font-weight: 600;
+    }
+
+    .iphone-part p {
+
+        text-align: center;
+        font-size: 14px;
+        margin: 20px auto;
+    }
+
+    .dip-icon p {
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+
+
+    }
+
+    .dip-icon i {
+        margin: auto 15px;
+        text-align: center;
+        align-items: center;
+    }
+
+    .dip-icon {
+        text-align: center;
+
+        align-items: center;
+        margin: auto 36px;
+    }
+
+    .iphone2 h5 {
+        font-size: 13px;
+        text-align: center;
+
+    }
+
+    .iphone2 h1 {
+        font-size: 30px;
+        margin: 15px auto;
+
+    }
+
+    .iphone2 p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .down-bg {
+        padding: 15px 0px;
+    }
+
+    .down-bg p {
+        font-size: 16px;
+
+    }
+
+    .down-bg h6 {
+        font-size: 14px;
+
+    }
+
+    .down-bg h1 {
+        margin: 14px auto;
+        font-size: 39px;
+
+    }
+
+    .client-des h4 {
+
+        font-size: 16px;
+
+        margin: 10px;
+    }
+
+    .client-des h3 {
+        color: rgb(255, 255, 255);
+        font-size: 14px;
+    }
+
+    .client-img {
+        margin-right: 30px;
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    .client-des h4 {
+        font-size: 16px;
+        margin: 20px;
+    }
+
+    .get h1 {
+        margin-left: 0;
+        font-size: 29px;
+    }
+
+    .like h1 {
+
+        font-size: 30px;
+    }
+
+    .black-btn {
+        margin-bottom: 20px;
+    }
+
+    .text {
+        margin: 22px auto;
+    }
+
+    .plans h1 {
+        margin: 20px auto;
+        font-size: 40px;
+    }
+
+    .pad_top {
+        padding: 0 !important;
+    }
+
+    .padd-top {
+        padding: 0 !important;
+    }
+
+    .Stay h1 {
+        margin: 6px auto;
+
+    }
+
+    .Stay h4 {
+        margin-top: 30px;
+
+    }
+
+    .icon-info i {
+        margin: 10px auto;
+        font-size: 30px;
+
+    }
+
+    .icon-info p {
+
+        margin: 5px auto;
+        font-size: 14px;
+    }
+
+    .form-box {
+
+        padding: 6px;
+        text-align: end;
+        position: absolute;
+        width: 80%;
+
+    }
+
+    .form-box form input[type="Submit"] {
+        padding: 2px 4px;
+
+        margin-bottom: 10px;
+    }
+    footer p{
+        margin: auto;
+    }
+    .icon-part ul {
+        margin-left: -50px;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
